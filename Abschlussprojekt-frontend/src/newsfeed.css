@@ -1,0 +1,348 @@
+/* Header Styles */
+.appnewsfeed .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #010b1f !important;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  height: 3%;
+}
+
+/* Logo Container Styles */
+.appnewsfeed .logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+
+/* Logo Styles */
+.appnewsfeed .logo {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Search Bar Styles */
+.appnewsfeed .search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff !important;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+
+/* Search Input Styles */
+.appnewsfeed .search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Search Button Styles */
+.appnewsfeed .search-bar button {
+  background-color: #4285f4 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* User Info Container Styles */
+.appnewsfeed .user-info-container {
+  display: flex;
+  align-items: center;
+}
+
+/* User Photo Styles */
+.appnewsfeed .user-photo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* User Details Styles */
+.appnewsfeed .user-details p {
+  margin: 0;
+  color: white !important;
+}
+
+/* Dropdown Container Styles */
+.appnewsfeed .dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content Styles */
+.appnewsfeed .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #363535 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+/* Hover Effect for Dropdown Container */
+.appnewsfeed .dropdown-container:hover .dropdown-content {
+  display: block;
+}
+
+/* Menu Item Styles */
+.appnewsfeed .menu-item {
+  padding: 12px;
+  text-decoration: none;
+  color: #6f5bdf !important;
+  display: block;
+}
+
+/* Hover Effect for Menu Item */
+.appnewsfeed .menu-item:hover {
+  background-color: #242424 !important;
+}
+
+/* App Styles */
+.appnewsfeed .app {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Chat Container Styles */
+.appnewsfeed .chat-container {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #040303 !important;
+}
+
+/* Posts Container Styles */
+.appnewsfeed .Posts-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #242424 !important;
+  margin-bottom: 20px;
+}
+
+/* User Message Styles */
+.appnewsfeed .message .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.appnewsfeed .message {
+  background-color: #979494 !important;
+}
+
+/* User Message Image Styles */
+.appnewsfeed .message .user img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+/* delete icon newsfeed*/
+.appnewsfeed .delete{
+  margin-left: 60% ;
+}
+.appnewsfeed .delete fa-trash {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+/* User Message Paragraph Styles */
+.appnewsfeed .message .user p {
+  color: darkblue !important;
+  margin: 0;
+}
+
+.appnewsfeed .message .user a {
+  color: #242424 !important;
+  margin: 0;
+}
+
+/* Comment Styles */
+.appnewsfeed .comment .commentuser {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Comment User Image Styles */
+.appnewsfeed .comment .commentuser img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Space Between Styles */
+.appnewsfeed .space-between {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* Comment User Paragraph Styles */
+.appnewsfeed .comment .commentuser p {
+  margin: 0;
+  color: darkblue !important;
+  white-space: nowrap;
+}
+
+/* Comment User Anchor Styles */
+.appnewsfeed .comment .commentuser a {
+  color: #242424 !important;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Comment Text Paragraph Styles */
+.appnewsfeed .comment .comment-text p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Comment User Strong Styles */
+.appnewsfeed .comment .commentuser strong {
+  margin-right: 10px;
+}
+
+/* Post Media Styles */
+.appnewsfeed .message .post-media {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Input Container Styles */
+.appnewsfeed .input-container {
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  background: rgba(230, 230, 230, 0.934) !important;
+  opacity: 90% !important;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* Textarea Styles */
+.appnewsfeed textarea {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #0805d0 !important;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Send and Upload Button Styles */
+.appnewsfeed .send-button,
+.appnewsfeed .upload-button {
+  cursor: pointer;
+  background-color: #646cff !important;
+  color: white !important;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Comments Container Styles */
+.appnewsfeed .comments-container {
+  margin-right: 90%;
+}
+
+/* Comment Button Styles */
+.appnewsfeed .comment-button {
+  margin-left: 80%;
+  cursor: pointer;
+}
+
+/* Comments Input Styles */
+.appnewsfeed .comments-input {
+  display: flex;
+  align-items: center;
+}
+
+/* Comments Input Textarea Styles */
+.appnewsfeed .comments-input input {
+  margin-left: 350%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+/* Comments Input Button Styles */
+.appnewsfeed .comments-input button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.appnewsfeed .search-liste{
+  position: fixed;
+  z-index: 1000;
+  background-color: rgb(243, 241, 241);
+  margin-top: 28px;
+  width: 290px;
+  margin-left: 250px;
+  border-radius: 20px;
+}
+.appnewsfeed .search-liste ul {
+  list-style: none; 
+}
+.appnewsfeed .search-liste li {
+  color: #0805d0;
+}
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+  .appnewsfeed .input-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .appnewsfeed .input-container textarea {
+    width: 90%; 
+    margin-bottom: 10px;
+  }
+
+  .appnewsfeed .input-container .upload-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .appnewsfeed .input-container .send-button {
+    margin-right: 10;
+    width: 90%;
+  }
+
+  .appnewsfeed .sidebar {
+    display: none;
+  }
+  .appnewsfeed .comment-button {
+    margin-left: 70%;
+  }
+  .appnewsfeed .comments-container {
+    margin-left: 10%;
+  }
+  .appnewsfeed .search-bar {
+    display: none;
+  }
+  .appnewsfeed .delete{
+    margin-left: 20% ;
+  }
+}
